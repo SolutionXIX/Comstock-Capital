@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comstock Capital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="container">
+            <h1>Comstock Capital</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#investments">Investments</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <div class="container">
+            <h2>Your Trusted Partner in Multifamily Real Estate Investments</h2>
+            <p>Investing nationwide in high-quality multifamily units.</p>
+            <button onclick="learnMore()">Learn More</button>
+        </div>
+    </section>
+    
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>Comstock Capital is a leading real estate investment firm specializing in multifamily units nationwide. Our team of experts is dedicated to providing top-notch investment opportunities and management services.</p>
+    </section>
+    
+    <section id="investments" class="container">
+        <h2>Our Investments</h2>
+        <div class="investment-card">
+            <h3>Property Name</h3>
+            <p>Location: City, State</p>
+            <p>Description of the property and its features.</p>
+        </div>
+        <!-- Repeat the above div for multiple properties -->
+    </section>
+    
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Comstock Capital. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
